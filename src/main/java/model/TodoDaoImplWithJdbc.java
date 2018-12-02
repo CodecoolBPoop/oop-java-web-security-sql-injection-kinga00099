@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class TodoDaoImplWithJdbc implements TodoDao {
 
-    private static final String DATABASE = "jdbc:postgresql://localhost:5432/todolist";
+    private static final String DATABASE = "jdbc:postgresql://localhost:8080/todolist";
     private static final String DB_USER = "postgres";
     private static final String DB_PASSWORD = "postgres";
 
